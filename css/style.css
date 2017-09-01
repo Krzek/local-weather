@@ -1,7 +1,7 @@
 body {
-    font-family: 'Roboto';
-    color: #fff;
-    background-color: #161616;
+    font-family: 'monospace';
+    color: #1AFF00;
+    background-color: #000000;
   }
   
   .status p {
@@ -15,13 +15,23 @@ body {
   
   .temp{
     cursor:pointer;
-    color:#006dcc;
+    color:#ffffff;
   }
   .temp:hover{
     color:#005096;
   }
   h1 {
-    font-size: 5em;
+    font-size: 4em;
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  a:hover {
+    color:#005096;
+    text-decoration: none;
   }
   
   .all-icon {
@@ -31,9 +41,17 @@ body {
   div.hide {
     display: none;
   }
+
+  .box {
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);    
+  }
   
   .icon {
-    color: #161616;
+    color: #000000;
     position: relative;
     display: inline-block;
     width: 12rem;
